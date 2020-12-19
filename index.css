@@ -44,6 +44,10 @@ body{
     height: 39%;
 }
 
+.headline{
+   color: hsl(238, 29%, 16%);
+}
+
 button{
     padding: 0px;
     border: 0px solid transparent;
