@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="index-mobile.css">
   <script src="index.js"></script>
   
   <title>FAQ Accordion Card</title>
@@ -18,31 +19,32 @@
 <body>
   <div class="container">
     <div class="illustrations">
-      <img src="images/illustration-box-desktop.svg" alt="illustration">
+      <img id="box" class="desktop" src="images/illustration-box-desktop.svg" alt="illustration">
+      <img class="mobile" src="images/illustration-woman-online-mobile.svg">
     </div>
     <div class="faq-container">
       <div class="headline">FAQ</div>
       <div class="questions-container">
         <dl class="faq">
-          <dt class="question"><button id="Q1" onclick="expand(this.id)">How many team members can I invite?<img class="arrow" src="images/icon-arrow-down.svg"></button></dt>
+          <dt class="question"><button id="Q1" onclick="expand(this.id)">How many team members can I invite?<img class="arrow" src="images/icon-arrow-down.svg" alt="arrow"></button></dt>
           <dd class="answer" id="A1"><div>You can invite up to 2 additional users on the Free plan. There is no limit on 
             team members for the Premium plan.</div></dd>
         </dl>
         <dl class="faq">
-          <dt class="question"><button id="Q2" onclick="expand(this.id)">What is the maximum file upload size?<img class="arrow" src="images/icon-arrow-down.svg"></button></dt>
+          <dt class="question"><button id="Q2" onclick="expand(this.id)">What is the maximum file upload size?<img class="arrow" src="images/icon-arrow-down.svg" alt="arrow"></button></dt>
           <dd class="answer" id="A2"><div>No more than 2GB. All files in your account must fit your allotted storage space.</div></dd>
         </dl>
         <dl class="faq">
-          <dt class="question"><button id="Q3" onclick="expand(this.id)">How do I reset my password?<img class="arrow" src="images/icon-arrow-down.svg"></button></dt>
+          <dt class="question"><button id="Q3" onclick="expand(this.id)">How do I reset my password?<img class="arrow" src="images/icon-arrow-down.svg" alt="arrow"></button></dt>
           <dd class="answer" id="A3"><div>Click “Forgot password” from the login page or “Change password” from your profile page.
             A reset link will be emailed to you.</div></dd>
         </dl>
         <dl class="faq">
-          <dt class="question"><button id="Q4" onclick="expand(this.id)">Can I cancel my subscription?<img class="arrow" src="images/icon-arrow-down.svg"></button></dt>
+          <dt class="question"><button id="Q4" onclick="expand(this.id)">Can I cancel my subscription?<img class="arrow" src="images/icon-arrow-down.svg" alt="arrow"></button></dt>
           <dd class="answer" id="A4"><div>Yes! Send us a message and we’ll process your request no questions asked.</div></dd>
         </dl>
         <dl class="faq">
-          <dt class="question"><button id="Q5"onclick="expand(this.id)">Do you provide additional support?<img class="arrow" src="images/icon-arrow-down.svg"></button></dt>
+          <dt class="question"><button id="Q5"onclick="expand(this.id)">Do you provide additional support?<img class="arrow" src="images/icon-arrow-down.svg" alt="arrow"></button></dt>
           <dd class="answer" id="A5"><div>Chat and email support is available 24/7. Phone lines are open during normal business hours.</div></dd>
         </dl>
         </div>
